@@ -1,0 +1,12 @@
+[package]
+name = "proj2"
+version = "0.1.0"
+edition = "2024"
+default-run = "proj2"
+
+[[bin]]
+name = "gen"
+path = "src/gen.rs"
+
+[dependencies]
+zstd = "0.14.3"
